@@ -123,7 +123,7 @@ async def add_allbot(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         await client.send_message(bot_username, f"/start")
         async for dialog in client.get_dialogs():
-            if dialog.chat.id == -1002120144597:
+            if dialog.chat.id == -1002499912775:
                 continue
             try:
 
